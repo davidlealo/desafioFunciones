@@ -22,7 +22,7 @@ return a+b+c
 }
 */
 
-//Resultado en archivo: '1 Funcion.js'
+//Resultado en archivo: 'assets/js/1 Funcion.js'
 
 /* 
 2. Transforma las siguiente función a una arrow function de una línea. Este ejercicio
@@ -30,4 +30,27 @@ debe quedar en un archivo llamado `2 arrow.js` (1 Punto)
 suma = function(a, b){
 return a + b
 }
+*/
+
+// Resultado en archivo `assets/js/2 arrow.js`
+
+/*
+3. Se tiene como base el siguiente ejercicio que cambia el color de un elemento de
+HTML al hacerle click (Total: 3 Puntos)
+
+<div id="ele1"> hello </div>
+<script>
+function pintar(){
+ele = document.getElementById("ele1")
+ele.style.backgroundColor = 'yellow'
+}
+ele = document.getElementById("ele1")
+ele.addEventListener("click", pintar);
+</script>
+
+3.1. Modifica la función para que reciba el elemento clickeado de forma de no
+tener que seleccionarlo nuevamente dentro de la función (1 Punto). Para
+obtener el puntaje debes entregar el 3 pintar.html válido funcionando en
+conjunto con el código modificado.
+
 */
