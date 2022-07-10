@@ -1,3 +1,3 @@
-let funcionExpresion = function example(a, b, c){
+let funcionExpresion = function(a, b, c){
     return a+b+c
     };
